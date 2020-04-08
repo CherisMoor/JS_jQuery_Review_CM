@@ -1,0 +1,10 @@
+
+var pizzaToppings = ['cheese', 'pepperoni', 'sausage', 'mushrooms'];
+
+ function pizzaArray(pizzaToppings){
+	var pizzaToppings = ['cheese', 'pepperoni', 'sausage', 'mushrooms'];
+	console.log("A mouth-watering pizza with " +pizzaToppings[0] + ", " + pizzaToppings[1] + ", " + pizzaToppings[2] + " and " + pizzaToppings[3] + "!");
+	return pizzaToppings;
+};
+
+pizzaArray();
