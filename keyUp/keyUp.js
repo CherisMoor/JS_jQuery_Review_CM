@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
-  $("input").keyup(function(){
-    $("input").css("background-color", "pink");
-    $("input").alert('input', 'value');
-  });
+$('#userInput').on("keyup", function() { alert($(this).val()); 
+			});
 });
+
+$('button').css({"border-color" : "pink", "color" : "purple"});
